@@ -181,7 +181,13 @@ Las pruebas de acceso se han realizado desde el cliente Windows 11 para verifica
 
 ![Prueba de permisos en el cliente](screenshots/W%2011%20-%20prueba%20de%20permisos%20en%20cliente.png)
 
+### 5. Configuración de la GPO
+
+![Configuración de la GPO de mapeo de unidades](screenshots/W%20Server%20-%20Configuraci%C3%B3n%20de%20la%20GPO.png)
+
 ---
+
+Esta directiva permite asignar automáticamente unidades de red a los usuarios según su grupo de seguridad, facilitando el acceso a las carpetas de cada departamento.
 
 ## 📸 Evidencias del proyecto
 
