@@ -163,6 +163,26 @@ Las pruebas de acceso se han realizado desde el cliente Windows 11 para verifica
 
 ---
 
+## 📸 Capturas del laboratorio
+
+### 1. Usuarios y grupos en Active Directory
+
+![Usuarios del dominio](screenshots/W%20Server%20-%20Usuarios.png)
+
+### 2. Carpetas compartidas en Windows Server
+
+![Carpetas compartidas del servidor](screenshots/W%20Server%20-%20Departamentos.png)
+
+### 3. Acceso a las carpetas desde Windows 11
+
+![Carpeta compartida en el cliente](screenshots/W%2011%20-%20carpeta%20compartida%20en%20cliente.png)
+
+### 4. Prueba de permisos de acceso
+
+![Prueba de permisos en el cliente](screenshots/W%2011%20-%20prueba%20de%20permisos%20en%20cliente.png)
+
+---
+
 ## 📸 Evidencias del proyecto
 
 Se incorporarán capturas de pantalla para documentar la configuración y los resultados de las pruebas.
