@@ -93,7 +93,7 @@ El acceso efectivo depende de los permisos del recurso compartido y de los permi
 
 ---
 
-## Asignación automática de unidades de red mediante GPO
+## 🗂️ Asignación automática de unidades de red mediante GPO
 
 ### Objetivo
 
@@ -143,7 +143,7 @@ Las pruebas de acceso se han realizado desde el cliente Windows 11 para verifica
 
 ---
 
-### Guía de diagnóstico: problemas de DNS
+### 🌐 Guía de diagnóstico: problemas de DNS
 
 **Síntoma:** el cliente Windows 11 no encuentra el controlador de dominio o muestra errores al consultar DNS.
 
