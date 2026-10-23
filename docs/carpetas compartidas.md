@@ -24,6 +24,16 @@ C:\EmpresaDatos
 ├── Administracion
 └── Ventas
 ```
+## 3.1. Procedimiento de creación
+
+1. En el servidor `SRV-DC01`, se crearon las carpetas `Administracion` y `Ventas` dentro de `C:\EmpresaDatos`.
+2. Se configuró cada carpeta como recurso compartido de red mediante SMB.
+3. Se asignó a cada recurso el nombre correspondiente al departamento.
+4. Se establecieron los permisos de acceso para los grupos de seguridad del dominio.
+5. Desde el equipo cliente `PC-CLI01`, se accedió a los recursos mediante sus rutas UNC para comprobar su funcionamiento.
+
+La configuración detallada de los permisos NTFS y de los permisos de uso compartido se recoge en la ficha técnica de permisos.
+
 
 ## 4. Recursos compartidos
 
