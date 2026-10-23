@@ -33,19 +33,6 @@ El servidor actúa como controlador de dominio y proporciona el servicio DNS nec
 
 ---
 
-## 🛠️ Tecnologías utilizadas
-
-- Oracle VirtualBox.
-- Windows Server.
-- Windows 11 Pro.
-- Active Directory Domain Services (AD DS).
-- DNS.
-- SMB y recursos compartidos de Windows.
-- Permisos NTFS.
-- PowerShell.
-
----
-
 ## 🏢 Estructura de Active Directory
 
 Se ha creado el dominio `empresa.test`, con el nombre NetBIOS `EMPRESA`.
@@ -156,6 +143,31 @@ Las pruebas de acceso se han realizado desde el cliente Windows 11 para verifica
 
 ---
 
+### Incidencia: el cliente no resuelve el dominio por DNS
+
+**Síntoma:** el cliente Windows 11 no encuentra el controlador de dominio o muestra errores al consultar DNS.
+
+**Configuración esperada:**
+- IP del servidor DNS: `192.168.56.10`.
+- Dominio: `empresa.test`.
+- Nombre del servidor: `SRV-DC01`.
+
+**Comprobaciones:**
+
+1. Ejecutar `ipconfig /all` en el cliente para comprobar que utiliza `192.168.56.10` como servidor DNS.
+2. Ejecutar `nslookup SRV-DC01.empresa.test` para comprobar la resolución del nombre del servidor.
+3. Ejecutar `nslookup -type=SRV _ldap._tcp.dc._msdcs.empresa.test` para comprobar la localización de los servicios de Active Directory.
+
+**Si las comprobaciones fallan:**
+- Revisar la configuración IP y DNS del cliente.
+- Comprobar que el servidor está encendido y que el servicio DNS funciona.
+- Verificar que existen los registros DNS necesarios.
+- Revisar la conectividad entre las máquinas virtuales y las reglas del firewall.
+
+**Resultado esperado:** el cliente resuelve el nombre del servidor y encuentra el registro SRV de Active Directory.
+
+---
+
 ## 📸 Capturas del laboratorio
 
 ### 1. Usuarios y grupos en Active Directory
@@ -174,26 +186,9 @@ Las pruebas de acceso se han realizado desde el cliente Windows 11 para verifica
 
 ![Prueba de permisos en el cliente](screenshots/W%2011%20-%20prueba%20de%20permisos%20en%20cliente.png)
 
-### 5. Configuración de la GPO
+### 5. Configuración de la GPO (Objeto de directiva de grupo)
 
 ![Configuración de la GPO de mapeo de unidades](screenshots/W%20Server%20-%20Configuraci%C3%B3n%20de%20la%20GPO.png)
-
----
-
-Esta directiva permite asignar automáticamente unidades de red a los usuarios según su grupo de seguridad, facilitando el acceso a las carpetas de cada departamento.
-
-## 📸 Evidencias del proyecto
-
-Se incorporarán capturas de pantalla para documentar la configuración y los resultados de las pruebas.
-
-Las evidencias se organizarán en la carpeta `screenshots/`:
-
-- Arquitectura y configuración de red.
-- Estructura de Active Directory y grupos.
-- Cliente Windows 11 unido al dominio.
-- Acceso autorizado a la carpeta de cada departamento.
-- Acceso denegado a la carpeta del otro departamento.
-
 
 ---
 
@@ -209,16 +204,6 @@ Las evidencias se organizarán en la carpeta `screenshots/`:
 - Aplicación del principio de acceso por grupos.
 - Resolución de incidencias y validación de conectividad.
 - Uso de PowerShell para consultar la configuración del sistema.
-
----
-
-## 🚀 Mejoras futuras
-
-- Configurar directivas de grupo (GPO).
-- Automatizar la conexión de unidades de red según el usuario o departamento.
-- Crear usuarios y grupos mediante scripts de PowerShell.
-- Añadir más equipos clientes y probar la administración centralizada.
-- Ampliar el laboratorio con servicios Linux y tecnologías de virtualización o cloud.
 
 ---
 
