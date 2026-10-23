@@ -134,13 +134,6 @@ Las unidades se han configurado mediante **Configuración de usuario → Prefere
 
 La asignación de unidades de red se realiza automáticamente al iniciar sesión, según la pertenencia del usuario a su grupo de seguridad.
 
-### Evidencias
-
-- Captura de la configuración de la GPO.
-- Captura de las asignaciones de unidades H: y V:.
-- Captura del Explorador de archivos de Ana.
-- Captura del Explorador de archivos de Carlos.
-
 ---
 
 ## 🧪 Pruebas y validación
