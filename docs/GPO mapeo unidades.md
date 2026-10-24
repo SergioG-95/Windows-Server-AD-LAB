@@ -47,7 +47,7 @@ Esta configuración permite aplicar cada asignación según la pertenencia del u
 
 Las pruebas se realizaron desde el equipo cliente `PC-CLI01`, iniciando sesión con cuentas del dominio.
 
-| Usuario | Grupo | Resultado esperado |
+| Usuario | Grupo | Resultado comprobado |
 |---|---|---|
 | Ana García (`ana.garcia`) | `GG_Administracion` | Se asigna la unidad `H:` |
 | Carlos López (`carlos.lopez`) | `GG_Ventas` | Se asigna la unidad `V:` |
