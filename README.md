@@ -1,5 +1,19 @@
 # Laboratorio de Active Directory en Windows Server
 
+## 📑 Índice
+
+- [Arquitectura del laboratorio](#️-arquitectura-del-laboratorio)
+- [Estructura de Active Directory](#-estructura-de-active-directory)
+- [Carpetas compartidas y permisos](#-carpetas-compartidas-y-permisos)
+- [Asignación de unidades mediante GPO](#-asignación-automática-de-unidades-de-red-mediante-gpo)
+- [Pruebas y validación](#-pruebas-y-validación)
+- [Diagnóstico de DNS](#-guía-de-diagnóstico-problemas-de-dns)
+- [Capturas del laboratorio](#-capturas-del-laboratorio)
+- [Documentación técnica](#-documentación-técnica)
+- [Conocimientos practicados](#-conocimientos-practicados)
+
+---
+
 ## 🎯 Objetivo del proyecto
 
 Desplegar un entorno de administración de sistemas en máquinas virtuales utilizando Windows Server y Windows 11.
@@ -93,7 +107,7 @@ El acceso efectivo depende de los permisos del recurso compartido y de los permi
 
 ---
 
-## 🗂️ Asignación automática de unidades de red mediante GPO
+## 🗂️ Asignación de unidades mediante GPO
 
 ### Objetivo
 
@@ -143,7 +157,7 @@ Las pruebas de acceso se han realizado desde el cliente Windows 11 para verifica
 
 ---
 
-### 🌐 Guía de diagnóstico: problemas de DNS
+### 🌐 Diagnóstico de DNS
 
 **Síntoma:** el cliente Windows 11 no encuentra el controlador de dominio o muestra errores al consultar DNS.
 
