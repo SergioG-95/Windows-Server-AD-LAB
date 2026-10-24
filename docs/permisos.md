@@ -49,4 +49,23 @@ Los resultados confirmaron que la separación de acceso entre departamentos func
 
 ## 7. Evidencias
 
-Se incluirán capturas de la configuración de permisos NTFS y SMB en el servidor y de las pruebas de acceso realizadas desde el cliente Windows 11.
+### 7.1. Configuración de la carpeta compartida
+
+La siguiente captura muestra la configuración de la carpeta del departamento de Administración en el servidor `SRV-DC01`.
+
+![Configuración de la carpeta Administración](../screenshots/W%20Server%20-%20Configuraci%C3%B3n%20carpeta%20Administraci%C3%B3n.png)
+
+### 7.2. Permisos de acceso
+
+En esta captura se muestra la configuración de los permisos de la carpeta de Administración, utilizada para controlar el acceso de los usuarios del dominio.
+
+![Permisos de la carpeta Administración](../screenshots/W%20Server%20-%20Permisos%20de%20Administraci%C3%B3n.png)
+
+### 7.3. Pruebas desde el equipo cliente
+
+Las siguientes capturas muestran el acceso a las carpetas compartidas y las pruebas realizadas desde el cliente Windows 11.
+
+![Carpeta compartida en el cliente](../screenshots/W%2011%20-%20carpeta%20compartida%20en%20cliente.png)
+
+![Prueba de permisos en el cliente](../screenshots/W%2011%20-%20prueba%20de%20permisos%20en%20cliente.png)
+
