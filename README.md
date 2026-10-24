@@ -1,5 +1,15 @@
 # Laboratorio de Active Directory en Windows Server
 
+## 🎯 Objetivo del proyecto
+
+Desplegar un entorno de administración de sistemas en máquinas virtuales utilizando Windows Server y Windows 11.
+
+El objetivo es centralizar la gestión de usuarios y grupos mediante Active Directory, configurar la resolución de nombres con DNS, compartir carpetas mediante SMB y aplicar permisos para separar el acceso a los recursos de diferentes departamentos.
+
+Este proyecto se ha desarrollado como práctica personal de aprendizaje del ciclo formativo de Administración de Sistemas Informáticos en Red (ASIR).
+
+---
+
 ## 📑 Índice
 
 - [Arquitectura del laboratorio](#️-arquitectura-del-laboratorio)
@@ -11,16 +21,6 @@
 - [Capturas del laboratorio](#-capturas-del-laboratorio)
 - [Documentación técnica](#-documentación-técnica)
 - [Conocimientos practicados](#-conocimientos-practicados)
-
----
-
-## 🎯 Objetivo del proyecto
-
-Desplegar un entorno de administración de sistemas en máquinas virtuales utilizando Windows Server y Windows 11.
-
-El objetivo es centralizar la gestión de usuarios y grupos mediante Active Directory, configurar la resolución de nombres con DNS, compartir carpetas mediante SMB y aplicar permisos para separar el acceso a los recursos de diferentes departamentos.
-
-Este proyecto se ha desarrollado como práctica personal de aprendizaje del ciclo formativo de Administración de Sistemas Informáticos en Red (ASIR).
 
 ---
 
@@ -234,6 +234,6 @@ Estas fichas amplían los detalles de configuración del laboratorio y documenta
 
 ## 👨‍💻 Autor y contexto
 
-Proyecto práctico personal desarrollado durante el primer curso del ciclo formativo de Grado Superior de Administración de Sistemas Informáticos en Red (ASIR).
+Proyecto práctico personal desarrollado durante el curso del ciclo formativo de Grado Superior de Administración de Sistemas Informáticos en Red (ASIR).
 
 El objetivo es adquirir experiencia práctica en administración de sistemas, redes, gestión de identidades y servicios de infraestructura.
