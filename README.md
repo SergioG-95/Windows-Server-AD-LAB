@@ -206,6 +206,17 @@ Las pruebas de acceso se han realizado desde el cliente Windows 11 para verifica
 
 ---
 
+## 📚 Documentación técnica
+
+Estas fichas amplían los detalles de configuración del laboratorio y documentan las pruebas realizadas.
+
+- [Estructura de Active Directory](docs/estructura%20active%20directory.md): dominio, unidades organizativas, usuarios y grupos de seguridad.
+- [Carpetas compartidas mediante SMB](docs/carpetas%20compartidas.md): estructura de carpetas y recursos compartidos.
+- [Permisos NTFS y SMB](docs/permisos.md): permisos por departamento y comprobaciones de acceso.
+- [Mapeo de unidades de red mediante GPO](docs/GPO%20mapeo%20unidades.md): asignación automática de unidades según los grupos de seguridad.
+
+---
+
 ## 📚 Conocimientos practicados
 
 - Instalación y configuración básica de Windows Server.
