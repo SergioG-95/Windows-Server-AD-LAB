@@ -66,7 +66,7 @@ La siguiente captura muestra la configuración de la directiva de grupo utilizad
 
 En el equipo cliente se verificó que cada usuario recibía la unidad de red correspondiente a su departamento.
 
-> Se pueden añadir aquí capturas de las unidades `H:` y `V:` visibles en el Explorador de archivos, una por cada usuario, si se dispone de ellas.
+![Carpeta compartida en el cliente](../screenshots/W%2011%20-%20carpeta%20compartida%20en%20cliente.png)
 
 ## 8. Conocimientos adquiridos
 
