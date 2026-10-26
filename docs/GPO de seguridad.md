@@ -99,7 +99,7 @@ Esta captura muestra la directiva `GPO_Seguridad_Cuentas` y la restricción del 
 
 Al intentar abrir el Panel de control desde `PC-CLI01` con la cuenta `ana.garcia`, Windows mostró un mensaje indicando que la operación estaba restringida.
 
-![Restricción del Panel de control en Windows 11](../screenshots/W%2011%20-%20restricci%C3%B3n%20Panel%20de%20control.png)
+![Restricción del Panel de control en Windows 11](../screenshots/W%2011%20-%20Restricci%C3%B3n%20Panel%20de%20control.png)
 
 ### 6.4. Verificación de las directivas aplicadas
 
