@@ -83,12 +83,29 @@ Esto permitió comprobar que ambas directivas figuraban entre las aplicadas al u
 
 ## 6. Evidencias
 
-Se añadirán capturas de pantalla de las siguientes comprobaciones:
+### 6.1. Configuración del bloqueo de cuentas
 
-- Configuración de la directiva de bloqueo de cuenta.
-- Configuración de `GPO_Seguridad_Cuentas`.
-- Mensaje mostrado al intentar abrir el Panel de control.
-- Resultado de `gpresult /r /scope:user`.
+Se muestran los valores configurados en `Default Domain Policy`: umbral de cinco intentos fallidos, duración del bloqueo de 15 minutos y restablecimiento del contador tras 15 minutos.
+
+![Configuración del bloqueo de cuentas](../screenshots/W%20Server%20-%20Configuraci%C3%B3n%20bloqueo%20de%20cuentas.png)
+
+### 6.2. Configuración de la GPO de seguridad
+
+Esta captura muestra la directiva `GPO_Seguridad_Cuentas` y la restricción del acceso al Panel de control y a Configuración de Windows.
+
+![Configuración de la GPO de seguridad](../screenshots/W%20Server%20-%20Configuraci%C3%B3n%20GPO%20seguridad.png)
+
+### 6.3. Comprobación de la restricción en el cliente
+
+Al intentar abrir el Panel de control desde `PC-CLI01` con la cuenta `ana.garcia`, Windows mostró un mensaje indicando que la operación estaba restringida.
+
+![Restricción del Panel de control en Windows 11](../screenshots/W%2011%20-%20restricci%C3%B3n%20Panel%20de%20control.png)
+
+### 6.4. Verificación de las directivas aplicadas
+
+El resultado de `gpresult /r /scope:user` permitió comprobar que `GPO_Seguridad_Cuentas` aparecía entre los objetos de directiva aplicados al usuario.
+
+![GPO de seguridad aplicada al usuario](../screenshots/W%2011%20-%20GPO%20de%20seguridad%20aplicada.png)
 
 ## 7. Conocimientos adquiridos
 
