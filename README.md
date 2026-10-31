@@ -214,6 +214,7 @@ Estas fichas amplían los detalles de configuración del laboratorio y documenta
 - [Carpetas compartidas mediante SMB](docs/carpetas%20compartidas.md): estructura de carpetas y recursos compartidos.
 - [Permisos NTFS y SMB](docs/permisos.md): permisos por departamento y comprobaciones de acceso.
 - [Mapeo de unidades de red mediante GPO](docs/GPO%20mapeo%20unidades.md): asignación automática de unidades según los grupos de seguridad.
+- [GPO de seguridad](docs/GPO%20de%20seguridad.md): configuración de políticas de seguridad, bloqueo de cuentas y restricción del acceso al Panel de control mediante directivas de grupo.
 
 ---
 
