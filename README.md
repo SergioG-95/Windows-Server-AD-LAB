@@ -215,6 +215,7 @@ Estas fichas amplían los detalles de configuración del laboratorio y documenta
 - [Permisos NTFS y SMB](docs/permisos.md): permisos por departamento y comprobaciones de acceso.
 - [Mapeo de unidades de red mediante GPO](docs/GPO%20mapeo%20unidades.md): asignación automática de unidades según los grupos de seguridad.
 - [GPO de seguridad](docs/GPO%20de%20seguridad.md): configuración de políticas de seguridad, bloqueo de cuentas y restricción del acceso al Panel de control mediante directivas de grupo.
+- [Copias de seguridad y restauración](docs/copias%20de%20seguridad%20y%20restauracion.md): instalación de Windows Server Backup, configuración de copias de seguridad en un segundo disco virtual y recuperación de archivos.
 
 ---
 
