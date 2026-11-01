@@ -216,7 +216,7 @@ Estas fichas amplían los detalles de configuración del laboratorio y documenta
 - [Mapeo de unidades de red mediante GPO](docs/GPO%20mapeo%20unidades.md): asignación automática de unidades según los grupos de seguridad.
 - [GPO de seguridad](docs/GPO%20de%20seguridad.md): configuración de políticas de seguridad, bloqueo de cuentas y restricción del acceso al Panel de control mediante directivas de grupo.
 - [Copias de seguridad y restauración](docs/copias%20de%20seguridad%20y%20restauraci%C3%B3n.md): instalación de Windows Server Backup, configuración de copias de seguridad en un segundo disco virtual y recuperación de archivos.
-- [Monitorización y supervisión](docs/monitorizacion%20y%20supervision.md): supervisión de recursos, servicios de Windows, contadores de rendimiento y revisión de eventos.
+- [Monitorización y supervisión](docs/monitorizaci%C3%B3n%20y%20supervisi%C3%B3n.md): supervisión de recursos, servicios de Windows, contadores de rendimiento y revisión de eventos.
 
 ---
 
