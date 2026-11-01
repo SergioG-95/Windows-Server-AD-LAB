@@ -15,7 +15,7 @@ Este proyecto se ha desarrollado como práctica personal de aprendizaje del cicl
 - [Arquitectura del laboratorio](#️-arquitectura-del-laboratorio)
 - [Estructura de Active Directory](#-estructura-de-active-directory)
 - [Carpetas compartidas y permisos](#-carpetas-compartidas-y-permisos)
-- [Asignación de unidades mediante GPO](#-asignación-de-unidades-mediante-gpo)
+- [Asignación de unidades mediante GPO](#asignación-de-unidades-mediante-gpo)
 - [Pruebas y validación](#-pruebas-y-validación)
 - [Diagnóstico de DNS](#-diagnóstico-de-dns)
 - [Capturas del laboratorio](#-capturas-del-laboratorio)
