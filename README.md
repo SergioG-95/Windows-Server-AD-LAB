@@ -107,7 +107,7 @@ El acceso efectivo depende de los permisos del recurso compartido y de los permi
 
 ---
 
-## 🗂️ Asignación de unidades mediante GPO
+## Asignación de unidades mediante GPO
 
 ### Objetivo
 
