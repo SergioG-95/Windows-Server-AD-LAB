@@ -20,7 +20,7 @@ Este proyecto se ha desarrollado como práctica personal de aprendizaje del cicl
 - [Diagnóstico de DNS](#-diagnóstico-de-dns)
 - [Capturas del laboratorio](#-capturas-del-laboratorio)
 - [Documentación técnica](#-documentación-técnica)
-- [Limitaciones del laboratorio](#-limitaciones-del-laboratorio)
+- [Limitaciones del laboratorio](#️-limitaciones-del-laboratorio)
 - [Conocimientos practicados](#-conocimientos-practicados)
 
 ---
