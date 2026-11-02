@@ -231,7 +231,6 @@ Estas fichas amplían los detalles de configuración del laboratorio y documenta
 - Diferenciación entre permisos NTFS y permisos de recursos compartidos.
 - Aplicación del principio de acceso por grupos.
 - Resolución de incidencias y validación de conectividad.
-- Uso de PowerShell para consultar la configuración del sistema.
 
 ---
 
