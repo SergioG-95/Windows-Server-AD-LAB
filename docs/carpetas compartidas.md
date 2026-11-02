@@ -49,7 +49,7 @@ Cada recurso se destina al grupo de seguridad correspondiente del dominio:
 - **Administración:** `GG_Administracion`.
 - **Ventas:** `GG_Ventas`.
 
-La configuración de los permisos NTFS y SMB se documentará en la ficha técnica de permisos.
+La configuración detallada de los permisos NTFS y SMB se recoge en la ficha técnica de [Permisos NTFS y SMB](docs/permisos.md).
 
 ## 6. Pruebas de funcionamiento
 
