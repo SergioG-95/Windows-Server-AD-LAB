@@ -20,6 +20,7 @@ Este proyecto se ha desarrollado como práctica personal de aprendizaje del cicl
 - [Diagnóstico de DNS](#-diagnóstico-de-dns)
 - [Capturas del laboratorio](#-capturas-del-laboratorio)
 - [Documentación técnica](#-documentación-técnica)
+- [Limitaciones del laboratorio](#-limitaciones-del-laboratorio)
 - [Conocimientos practicados](#-conocimientos-practicados)
 
 ---
@@ -231,6 +232,14 @@ Estas fichas amplían los detalles de configuración del laboratorio y documenta
 - Diferenciación entre permisos NTFS y permisos de recursos compartidos.
 - Aplicación del principio de acceso por grupos.
 - Resolución de incidencias y validación de conectividad.
+
+---
+
+## ⚠️ Limitaciones del laboratorio
+
+- La red Host-only está aislada y no dispone de conexión a Internet.
+- Las copias de seguridad se almacenan en un segundo disco virtual dentro del mismo entorno de VirtualBox. Por tanto, no sustituyen a una copia externa ni protegen frente a la pérdida del entorno completo.
+- El laboratorio utiliza dos usuarios y dos departamentos de prueba, por lo que el entorno es una simulación a pequeña escala.
 
 ---
 
