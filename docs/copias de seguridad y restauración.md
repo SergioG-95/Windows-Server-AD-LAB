@@ -15,7 +15,6 @@ En esta práctica se realizó una copia de seguridad de una carpeta compartida d
 | Dirección IP | `192.168.56.10` |
 | Disco del sistema | `C:` |
 | Disco destinado a copias | `E:` |
-| Carpeta de destino | `E:\CopiasSeguridad` |
 | Carpeta protegida | `C:\EmpresaDatos\Administracion` |
 | Herramienta | Windows Server Backup |
 
