@@ -20,8 +20,6 @@ En esta práctica se realizó una copia de seguridad de una carpeta compartida d
 
 Se añadió un segundo disco virtual a la máquina `SRV-DC01`, que posteriormente se inicializó utilizando el estilo de partición GPT, se formateó con NTFS y se asignó la letra `E:`.
 
-En este disco se creó la carpeta `CopiasSeguridad`, destinada al almacenamiento de las copias.
-
 ## 3. Instalación de Windows Server Backup
 
 Se instaló la característica **Copia de seguridad de Windows Server** desde el Administrador del servidor, siguiendo esta ruta:
